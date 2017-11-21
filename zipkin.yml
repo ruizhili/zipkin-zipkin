@@ -22,7 +22,7 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://72.20.8.5:5601
+      hosts: http://72.20.8.5:9200
       username: elastic
       password: changeme
 spring: 
