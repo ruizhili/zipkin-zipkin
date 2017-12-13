@@ -22,7 +22,7 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://10.0.0.4:9200
+      hosts: http://10.0.0.4:9000
       username: elastic
       password: changeme
 spring: 
