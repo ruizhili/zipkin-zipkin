@@ -22,7 +22,7 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://esnode1.es--test:9200
+      hosts: http://es.esnode1--test:9200
       username: elastic
       password: changeme
 spring: 
