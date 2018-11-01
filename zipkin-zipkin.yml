@@ -22,7 +22,7 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://elasticsearch-client.lrz-test:9200
+      hosts: http://192.168.0.40.lrz-test:9200
       username: alauda
       password: alauda
 spring: 
