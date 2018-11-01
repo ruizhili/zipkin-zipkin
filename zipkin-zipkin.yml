@@ -22,9 +22,9 @@ zipkin:
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: http://10.23.0.10:9200
-      username: elastic
-      password: changeme
+      hosts: http://elasticsearch-client.lrz-test:9200
+      username: alauda
+      password: alauda
 spring: 
   cloud: 
     config: 
