@@ -23,8 +23,6 @@ zipkin:
     type: elasticsearch
     elasticsearch:
       hosts: http://10.109.8.207:9200
-      username: alauda
-      password: alauda
 spring: 
   cloud: 
     config: 
